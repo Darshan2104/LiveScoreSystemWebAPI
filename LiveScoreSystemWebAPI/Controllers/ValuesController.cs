@@ -1,5 +1,7 @@
-﻿using System;
+﻿using LiveScoreSystemWebAPI.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -9,6 +11,19 @@ namespace LiveScoreSystemWebAPI.Controllers
 {
     public class ValuesController : ApiController
     {
+       
+
+
+
+
+
+
+
+
+
+
+
+
         // GET api/values
         public IEnumerable<string> Get()
         {
